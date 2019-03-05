@@ -400,7 +400,7 @@ header #header-bar>.row {
 
 /* 게시글 댓글 수 */
 #article-list>.article-list-row>.item>.list-title>small.comment-count {
-	color: var(--mainColor);
+	color: var(--nicknameColor);
 }
 
 /* 로그인한 게시글 작성자 */
