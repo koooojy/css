@@ -7,6 +7,8 @@
 	--mainColor2: #77777722; /* 트게더 메뉴, 게시글 hover */
 	--mainColor11: #82b6ee; /* 헤더 색상 */
 	--mainColor22: #ebeae8; /* 헤더 색상 */
+	--mainColor33: #003399; /* 기타 색상 */
+	--mainColor44: #337ab7 /* 글쓰기 버튼 */;
 	--logoURL: url(https://upload.tgd.kr/20180926/9f10b8e59c0357f1ab507d8aa93c8705.png);
 	--logoWidth: 200px;	 /* 로고 너비 */
 	--before: "케이크단"; /* 접속자 수 앞 문구 */
