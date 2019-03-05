@@ -1,6 +1,6 @@
 /* 사용자 설정 부분 */
 :root {
-	   --bgColor: #f0f0f0;   /* 배경 색 */
+	   --bgColor: linear-gradient(to bottom, #5EFCE8, #736EFE);   /* 배경 색 */
 	 --mainColor: #777777;   /* 메인 컬러 */
 	--mainColor5: #77777755; /* 공지, 인기글 hover */
 	--mainColor3: #77777733; /* 공지, 인기글 */
