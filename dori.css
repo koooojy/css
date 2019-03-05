@@ -203,9 +203,9 @@ header #header-bar>.row {
 
 /* 트게더 게시판 이름 */
 #board-info h1>a[href='/dori1203'] {
-    position: absolute;
-    left: 40px;
-    padding-left: 50px;
+    /* position: absolute; */
+    /* left: 40px; */
+    padding-left: 61px;
     width: 150px;
     height: 70px;
     z-index: 1;
