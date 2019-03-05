@@ -164,12 +164,12 @@ header #header-bar>.row {
 }
 
 #board-info #board-info-bottom a {
-	color: var(--mainColor);
-	font-size: 14px;
+    z-index: 100;
+    position: relative;
 }
 
 #board-info > #board-info-bottom {
-	margin-top: 10px;
+    padding-left:65px;
 }
 
 #board-info>img,
@@ -244,11 +244,10 @@ header #header-bar>.row {
 
 /* 카테고리 */
 #article-list #article-list-category {
+	border-top: 2px dotted #3DB7CC;
+    background: #C4FDFF;
+    border-bottom: 2px dotted #3DB7CC;
 	background: transparent;
-	border: none;
-	margin-top: 2px;
-	margin-bottom: 2px;
-}
 
 #article-list #article-list-category>a {
 	background: transparent;
