@@ -2,9 +2,9 @@
 :root {
 	   --bgColor: #5EFCE8, #736EFE;   /* 배경 색 */
 	 --mainColor: #82b6ee;   /* 메인 컬러 */
-	--mainColor5: #77777755; /* 공지, 인기글 hover */
-	--mainColor3: #77777733; /* 공지, 인기글 */
-	--mainColor2: #77777722; /* 트게더 메뉴, 게시글 hover */
+	--mainColor5: #82b6ee; /* 공지, 인기글 hover */
+	--mainColor3: #82b6ee; /* 공지, 인기글 */
+	--mainColor2: #82b6ee; /* 트게더 메뉴, 게시글 hover */
 	--logoURL: url(https://upload.tgd.kr/20180926/9f10b8e59c0357f1ab507d8aa93c8705.png);
 	--logoWidth: 200px;	 /* 로고 너비 */
 	--before: "케이크단"; /* 접속자 수 앞 문구 */
