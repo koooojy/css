@@ -1,7 +1,7 @@
 /* 사용자 설정 부분 */
 :root {
-	   --bgColor: linear-gradient(to top, #C97CBF 0%, #FFEBFF 100%);   /* 배경 색 */
-	 --mainColor: #777777;   /* 메인 컬러 */
+	--bgColor: linear-gradient(to top, #C97CBF 0%, #FFEBFF 100%);   /* 배경 색 */
+	--mainColor: #777777;   /* 메인 컬러 */
 	--mainColor5: #77777755; /* 공지, 인기글 hover */
 	--mainColor3: #77777733; /* 공지, 인기글 */
 	--mainColor2: #77777722; /* 트게더 메뉴, 게시글 hover */
