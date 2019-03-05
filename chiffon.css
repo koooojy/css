@@ -328,7 +328,7 @@ header #header-bar>.row {
 
 /* 로그인한 게시글 작성자 */
 #article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {
-	color: var(--mainColor);
+	color: var(--mainColor33);
 }
 
 /* 게시글 검색 창 */
