@@ -166,11 +166,14 @@ header #header-bar>.row {
 }
 
 #board-info>img#board-info-profile-img {
-	width: 80px;
-	margin-right: 15px;
-	border: 2px solid var(--mainColor);
-  border-radius: 0;
-	transition: 0.2s;
+	border-radius: 50%;
+	border: 3px solid var(--mainColor);
+    float: left !important;
+    position: absolute;
+    left: 20px;
+    top: 3.5px;
+    width: 66px;
+    height: 70px;
 }
 
 #board-info>img#board-info-profile-img:hover {
