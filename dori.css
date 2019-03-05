@@ -365,7 +365,7 @@ header #header-bar>.row {
 
 #article-list>.article-list-row:hover,
 #article-list>.article-list-row:focus {
-	background-color: var(--mmeelloowwpinkColor);
+	background-color: var(--mellowpinkColor);
 	transform: scale(1.01);
 	transition: 0.2s;
 }
@@ -379,7 +379,7 @@ header #header-bar>.row {
 #article-list>.article-list-row.hot:focus,
 #article-list>.article-list-row.notice:hover,
 #article-list>.article-list-row.notice:focus {
-	background-color: var(--pinkColor);
+	background-color: var(--mmeelloowwpinkColor);
 }
 
 #article-list>.article-list-row>.item>.list-header {
