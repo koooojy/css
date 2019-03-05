@@ -505,7 +505,7 @@ header #header-bar>.row {
 #article-reply-area #reply-real-area .reply > .reply-header,
 #article-reply-area #reply-best-area .reply > .reply-header {
 	padding: 0.3em 0.5em;
-	background: #FFEBFF;
+	background: var(--mellowpinkColor);
 }
 
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged,
