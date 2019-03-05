@@ -199,13 +199,17 @@ header #header-bar>.row {
 	transition: 0.2s;
 }
 
+/* 즐찾/프로필/채널/클립 순서 */
 #board-info #board-info-bottom a {
 	color: var(--mainColor);
 	font-size: 14px;
+    z-index: 100;
+    position: relative;
 }
 
+/* 즐겨찾기/프로필/채널/클립 */
 #board-info > #board-info-bottom {
-	margin-top: 10px;
+	padding-left:65px;
 }
 
 #board-info>img,
