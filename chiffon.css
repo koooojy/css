@@ -1,26 +1,26 @@
 /* 사용자 설정 부분 */
 :root {
-	   --bgColor: linear-gradient(to top, #C97CBF 0%, #FFEBFF 100%);   /* 배경 색 */
-	 --mainColor: #777777;   /* 메인 컬러 */
+	--bgColor: linear-gradient(to bottom, #5EFCE8, #736EFE);   /* 배경 색 */
+	--mainColor: #777777;   /* 메인 컬러 */
 	--mainColor5: #77777755; /* 공지, 인기글 hover */
 	--mainColor3: #77777733; /* 공지, 인기글 */
 	--mainColor2: #77777722; /* 트게더 메뉴, 게시글 hover */
 	--headerColor1: #82b6ee; /* 헤더란 색상 */
 	--profileColor1: #FFB2F5; /* 프로필 색상 */
-	--pinkColor: #337ab7; /* 트게더 랭킹, 왼쪽 메뉴 색상 */
+	--pinkColor: #5CD1E5; /* 트게더 랭킹, 왼쪽 메뉴 색상 */
 	--info: #F361A6; /* 즐겨찾기/소개/채널/클립/ */
 	--peoplenotice: #337ab7; /* 트게더 인원 수/전광판 */
-	--categories1: #FF48FF; /* 카테고리 색상 */
-	--categories2: #FFFDFF; /* 카테고리 색상 */
+	--categories1: #3DB7CC; /* 카테고리 색상 */
+	--categories2: #C4FDFF; /* 카테고리 색상 */
 	--btnColor: #D941C5; /* 버튼 색상 */
 	--tgdmenuintervalColor: #efeaf7; /* 트게더 왼쪽 메뉴 간격 색상 */
-	--nicknameColor: #D9418C; /* 닉네임 색상 */
-	--engColor: #FFCDFF; /* 트게더 메뉴 알파벳 색상 */
-	--tgdtextColor: #F361DC; /* 트게더 메뉴 글자 색상 */
-	--mellowpinkColor: #FFEBFF; /* 연한 핑크색 */
-	--mellowmellowpinkColor: #ffd8ff; /* 더 연한 핑크색 */
-	--bethickpinkColor: #db76e6; /* 더 진한 핑크색 */
-	--mmeelloowwpinkColor: #FFFAFF; /* 완전 연한 핑크색 */
+	--nicknameColor: #003399; /* 닉네임 색상 */
+	--engColor: #80F5FF; /* 트게더 메뉴 알파벳 색상 */
+	--tgdtextColor: #005D72; /* 트게더 메뉴 글자 색상 */
+	--mellowskyblueColor: #D9E5FF; /* 연한 하늘색 */
+	--mellowmellowskyblueColor: #EBF7FF; /* 더 연한 하늘색 */
+	--bethickskyblueColor: #B2CCFF; /* 더 진한 하늘색 */
+	--mmeelloowwskyblueColor: #A0BAED; /* 완전 연한 하늘색 */
 	--logoURL: url(https://upload.tgd.kr/20180926/9f10b8e59c0357f1ab507d8aa93c8705.png);
 	--logoWidth: 200px;	 /* 로고 너비 */
 	--before: "케이크단"; /* 접속자 수 앞 문구 */
@@ -365,21 +365,21 @@ header #header-bar>.row {
 
 #article-list>.article-list-row:hover,
 #article-list>.article-list-row:focus {
-	background-color: var(--mellowpinkColor);
+	background-color: var(--mellowskyblueColor);
 	transform: scale(1.01);
 	transition: 0.2s;
 }
 
 #article-list>.article-list-row.hot,
 #article-list>.article-list-row.notice {
-	background-color: var(--mellowmellowpinkColor);
+	background-color: var(--mellowmellowskyblueColor);
 }
 
 #article-list>.article-list-row.hot:hover,
 #article-list>.article-list-row.hot:focus,
 #article-list>.article-list-row.notice:hover,
 #article-list>.article-list-row.notice:focus {
-	background-color: var(--mmeelloowwpinkColor);
+	background-color: var(--mmeelloowwskyblueColor);
 }
 
 #article-list>.article-list-row>.item>.list-header {
@@ -466,7 +466,7 @@ header #header-bar>.row {
 
 #article-content-wrapper>.footer {
 	/* border-top: 2px solid var(--mainColor); */
-	background: var(--mellowpinkColor);
+	background: var(--mellowskyblueColor);
 }
 
 #article-neighbor-list {
@@ -489,7 +489,7 @@ header #header-bar>.row {
 #article-reply-area {
 	padding: 0;
 	background: white;
-	/* border: 2px solid var(--mellowpinkColor); */
+	/* border: 2px solid var(--mellowskyblueColor); */
 	margin-bottom: 1em;
 }
 
@@ -499,7 +499,7 @@ header #header-bar>.row {
 
 #article-reply-area #reply-real-area .reply.active,
 #article-reply-area #reply-best-area .reply.active {
-	background-color: var(--mellowpinkColor);
+	background-color: var(--mellowskyblueColor);
 }
 
 #article-reply-area #reply-real-area .reply > .reply-header,
@@ -576,9 +576,9 @@ span.a-badge i.fa.fa-star{
 
 /* 글 수정 알림 */
 .alert-success{
-    color: var(--bethickpinkColor);
-    background-color: var(--mellowpinkColor);
-    border-color: var(--mellowmellowpinkColor);
+    color: var(--bethickskyblueColor);
+    background-color: var(--mellowskyblueColor);
+    border-color: var(--mellowmellowskyblueColor);
 }
 
 
@@ -666,7 +666,7 @@ color: #FFB2F5;
 .input-group-btn.open .dropdown-menu {
 	opacity: unset;
 	transform: unset;
-	border: 2px solid var(--mellowpinkColor);
+	border: 2px solid var(--mellowskyblueColor);
 	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.275);
 }
 
