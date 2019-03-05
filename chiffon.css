@@ -499,7 +499,7 @@ header #header-bar>.row {
 
 #article-reply-area #reply-real-area .reply.active,
 #article-reply-area #reply-best-area .reply.active {
-	background-color: var(--mellowskyblueColor);
+	background-color: white;
 }
 
 #article-reply-area #reply-real-area .reply > .reply-header,
@@ -578,6 +578,13 @@ span.a-badge i.fa.fa-star{
 /* 글 수정 알림 */
 .alert-success{
     color: var(--bethickskyblueColor);
+    background-color: var(--mellowskyblueColor);
+    border-color: var(--mellowmellowskyblueColor);
+}
+
+/* 비밀글 알림 */
+.alert-danger{
+	color: var(--bethickskyblueColor);
     background-color: var(--mellowskyblueColor);
     border-color: var(--mellowmellowskyblueColor);
 }
