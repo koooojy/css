@@ -5,6 +5,8 @@
 	--mainColor5: #77777755; /* 공지, 인기글 hover */
 	--mainColor3: #77777733; /* 공지, 인기글 */
 	--mainColor2: #77777722; /* 트게더 메뉴, 게시글 hover */
+	--mainColor11: #82b6ee; /* 헤더 색상 */
+	--mainColor22: #ebeae8; /* 헤더 색상 */
 	--logoURL: url(https://upload.tgd.kr/20180926/9f10b8e59c0357f1ab507d8aa93c8705.png);
 	--logoWidth: 200px;	 /* 로고 너비 */
 	--before: "케이크단"; /* 접속자 수 앞 문구 */
@@ -74,7 +76,12 @@ header #header-bar {
 }
 
 header #header-bar>.row {
-	border: 2px solid var(--mainColor);
+	padding-top: .3em;
+    padding-bottom: .3em;
+    border-top: 4px double var(--mainColor11);
+    border-bottom: 4px double var(--mainColor11);
+    border-right: 0px solid var(--mainColor22);
+    z-index: 200;
 }
 
 /* 전광판 */ header #header-bar #header-top-notice strong.notice-badge,
