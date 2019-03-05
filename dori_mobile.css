@@ -300,10 +300,13 @@ position: absolute;
 
 /* 프로필 옆 트게더 이름 위치 정리 */
 #board-info>h1>a{
-padding-left: 63px;
-width: 150px;
-height: 150px;
-z-index: 1;
+    margin-left: 64px;
+    z-index: 1;
+}
+
+/* 라이브 버튼 */
+#board-info h1>a.badge.badge-live{
+    margin-left: 0px;
 }
 
 /* 하트색상 */
