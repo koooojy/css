@@ -1,0 +1,345 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+/* 헤더 그라데이션 */
+header{
+    border-bottom: 0px;
+    background: radial-gradient(ellipse at bottom, rgb(255, 235, 255), rgb(255, 115, 238));
+}
+
+/* 로고 */
+header>#header-area>a>h1 {
+  background: url('https://upload.tgd.kr/20180816/7b4fb930c75468c7c8c396c128c2e39c.png') no-repeat;
+  background-repeat: no-repeat;
+  height: unset !important;
+}
+
+/* 왼쪽 트게더 카테고리 버튼 */
+header>#header-area>#header-bar-link{
+color: #D941C5;
+}
+nav#nav>#nav-upper>#header-close-bar-link{
+color: #D941C5;
+}
+
+/* 왼쪽 트게더 카테고리 */
+nav#nav>.nav-header{
+background: #FFA9FF;
+}
+
+/* 검색버튼 */
+header>#header-area>#header-search-link{
+color: #D941C5;
+}
+header > #header-search-bar #header-search-btn{
+color: #D941C5;
+}
+
+/* 검색창 */
+header > #header-search-bar #header-search-input{
+border: 2px solid #D941C5;
+}
+
+/* 검색 취소 버튼 */
+header > #header-search-bar #header-close-search-btn{
+color: #D941C5;
+}
+
+/* 프로필 아이콘 위에 바 */
+#board-info{
+border-top: 4px double #FF89FF;
+}
+
+#header-top-notice{
+border-top: 4px double #FF89FF;
+}
+
+/* 트게더 순위 */
+.badge{
+background-color: #D941C5;
+}
+
+/* 인원수 */
+#board-info #viewers-area{
+    color: #D941C5;
+    font-size: 12px;
+    position: absolute;
+    right: 0px;
+    margin-right: 1em;
+    margin-top: 0.4em;
+}
+#board-info #viewers-area #viewers:before{
+content:"뺀찌단";
+cursor:text;
+}
+#board-info #viewers-area #viewers:after{
+content:"명의 온기가 남아있습니다.";
+cursor:text;
+}
+/* 인원 아이콘 */
+#board-info #viewers-area .fa-user:before{
+    color: rgba(10, 59, 84, 0);
+    content: url(https://upload.tgd.kr/20180926/e541bf9b3cc607e164e607e106483d6e.png);
+}
+
+
+/* 트게더 게시판 닉네임 색상 */
+#article-list>.article-list-row>.item>a.list-title>.list-writer.logged>span{
+color: #D9418C
+}
+
+/* 카테고리 부분 */
+#article-list #article-list-category{
+    border-top: 2px dotted #FF48FF;
+    background: #FFFDFF;
+    border-bottom: 2px dotted #FF48FF;
+}
+#article-list #article-list-category>a{
+background: #FFFDFF;
+}
+#article-list #article-list-category > a.active, #article-list #article-list-category>a:hover{
+background: #FFFDFF;
+}
+
+/* 프로필 사진 */
+#board-info>h1>#board-info-profile-img{
+    float: left;
+    width: 60px;
+    height: 60px;
+    background-size: 85px;
+    border: 2px solid #FF97FF;
+    border-radius: 50%;
+    margin-top: -30px;
+}
+
+/* 글쓰기 버튼 */
+.btn-primary{
+animation: infinite rainbowLinkBG 3s;
+border: 0;
+}
+@keyframes rainbowLink {
+    0% {
+        color: #ff2a2a;
+    }
+    15% {
+        color: #ff7a2a;
+    }
+    30% {
+        color: #ffc52a;
+    }
+    45% {
+        color: #43ff2a;
+    }
+    60% {
+        color: #2a89ff;
+    }
+    75% {
+        color: #202082;
+    }
+    90% {
+        color: #6b2aff;
+    }
+    100% {
+        color: #e82aff;
+    }
+}
+
+@keyframes rainbowLinkBG {
+    0% {
+        background-color: #ff2a2a;
+    }
+    15% {
+        background-color: #ff7a2a;
+    }
+    30% {
+        background-color: #ffc52a;
+    }
+    45% {
+        background-color: #43ff2a;
+    }
+    60% {
+        background-color: #2a89ff;
+    }
+    75% {
+        background-color: #202082;
+    }
+    90% {
+        background-color: #6b2aff;
+    }
+    100% {
+        background-color: #e82aff;
+    }
+}
+
+@keyframes AquaLinkBG {
+    0% {
+        background-color: #FFB2F5;
+    }
+    40% {
+        background-color: #FFD9FA;
+    }
+    100% {
+        background-color: #FFB2F5;
+    }
+}
+
+/* 댓글 갯수 */
+#article-list>.article-list-row>.item>a.list-title>small.comment-count{
+color: #D9418C
+}
+
+/* 댓글 갯수 */
+#article-list>.article-list-row>.item>.list-header>span{
+background-color: #D9418C
+}
+
+/* 게시글 댓글 갯수 */
+#article-reply-area > .header
+h5{
+color: #D9418C
+}
+
+
+/* 게시글 댓글 닉네임 */
+#article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged, #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged{
+color: #D9418C
+}
+
+/* 게시글 상단 바 */
+#article-content-wrapper > .header{
+background: #FFEBFF;
+border-top: 2px solid #FFC8FF;
+}
+
+/* 댓글 바 */
+#article-reply-area #reply-real-area .reply > .reply-header, #article-reply-area #reply-best-area .reply>.reply-header{
+background: #FFEBFF;
+}
+
+/* 현재 보는 게시글 */
+#article-list>.article-list-row.active{
+background-color: #FFF5FF;
+}
+
+/* 공지글 */
+#article-list > .article-list-row.notice{
+background: #FFEBFF;
+}
+
+/* 페이지 버튼 */
+.pagination > li > a:hover {
+    animation: infinite AquaLinkBG 1.5s;
+}
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{
+background-color: #FFB2F5;
+    border-color: #FFB2F5;
+}
+
+.pagination>li>a, .pagination>li>span{
+color: #FFB2F5;
+}
+
+/* 트게더 전광판 광고 색상 */
+#header-top-notice{
+padding: 6px 0;
+}
+#header-top-notice strong.notice-badge{
+background: #D941C5;
+
+}
+
+/* 별 이미지 변경 */
+span.a-badge i.fa.fa-star{
+    opacity: 100;
+    color: rgba(0,0,0,0);
+    vertical-align: 2px !important;
+    width: 16px;
+    height: 16px;
+    background-size: 16px 16px;
+    background: url(https://upload.tgd.kr/20180926/0f1df74ed89f5b5109736512d419b723.png);
+    background-repeat: no-repeat;
+}
+.article-list-row i.fa.fa-star {
+    animation: rotation 2s infinite;
+}
+
+.article-list-row:nth-child(even) i.fa.fa-star {
+    animation-delay: 1s;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* 알림창 */
+.alert-danger{
+    color: #FF48FF;
+    background-color: #FFC6FF;
+    border-color: #FF48FF;
+}
+
+/* 최상단 이름, 정보창 정리 */
+#board-info{
+overflow:hidden;
+}
+
+/* 최상단 이름, 정보창 눈 표시 내리기 */
+#board-info>h1{
+width: 100%;
+}
+
+/* 프로필 사진 최상위 */
+#board-info>h1>#board-info-profile-img{
+position: absolute;
+}
+
+/* 프로필 옆 트게더 이름 위치 정리 */
+#board-info>h1>a{
+padding-left: 63px;
+width: 150px;
+height: 150px;
+z-index: 1;
+}
+
+/* 하트색상 */
+#article-list>.article-list-row>.item>a.list-title>small.favo{
+color: pink;
+}
+
+/* 하드모양 바운스 */
+.fa-heart:before {
+    display: inline-block;
+    animation: heartbounce 1s infinite;
+}
+
+@keyframes heartbounce {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  15% {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+
+  30% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  45% {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+
+  70% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
