@@ -189,6 +189,16 @@ header #header-bar>.row {
 	transform: scale(1.1);
 }
 
+/* 트게더 인원수 */
+#board-info #viewers-area{
+    color: #337ab7;
+    font-size: 12px;
+    position: absolute;
+    right: 0px;
+    margin-right: 1em;
+    margin-top: 0.4em;
+}
+
 #board-info #viewers-area #viewers:before {
 	content: var(--before);
 	cursor: text;
@@ -197,6 +207,12 @@ header #header-bar>.row {
 #board-info #viewers-area #viewers:after {
 	content: var(--after);
 	cursor: text;
+}
+
+/* 인원 아이콘 */
+#board-info #viewers-area .fa-user:before{
+    color: rgba(10, 59, 84, 0);
+    content: url(https://upload.tgd.kr/20180928/c2689c91ffdfdbf6fa7abf86b9054019.png);
 }
 
 
