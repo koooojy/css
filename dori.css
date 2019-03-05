@@ -8,10 +8,14 @@
 	--headerColor1: #FF89FF; /* 헤더란 색상 */
 	--profileColor1: #FFB2F5; /* 프로필 색상 */
 	--ranking: #FFA9FF; /* 트게더 랭킹 색상 */
+	--info: #F361A6; /* 즐겨찾기/소개/채널/클립/ */
+	--people: #D941C5; /* 트게더 인원 수 */
+	--categories1: #FF48FF; /* 카테고리 색상 */
+	--categories2: #FFFDFF; /* 카테고리 색상 */
 	--logoURL: url(https://upload.tgd.kr/20180926/05028f40205242b2a43f4dd47d9e7cac.png);
 	--logoWidth: 200px;	 /* 로고 너비 */
-	--before: ""; /* 접속자 수 앞 문구 */
-	--after: "";  /* 접속자 수 뒤 문구 */
+	--before: "뺀찌단"; /* 접속자 수 앞 문구 */
+	--after: "명의 온기가 남아있습니다.";  /* 접속자 수 뒤 문구 */
 }
 
 /* 모든 항목 focus시 아웃라인 제거 */
@@ -201,7 +205,7 @@ header #header-bar>.row {
 
 /* 즐찾/프로필/채널/클립 순서 */
 #board-info #board-info-bottom a {
-	color: var(--mainColor);
+	color: var(--info);
 	font-size: 14px;
     z-index: 100;
     position: relative;
@@ -233,6 +237,16 @@ header #header-bar>.row {
 	transform: scale(1.1);
 }
 
+/* 트게더 인원수 */
+#board-info #viewers-area{
+    color: var(--people);
+    font-size: 12px;
+    position: absolute;
+    right: 0px;
+    margin-right: 1em;
+    margin-top: 0.4em;
+}
+
 #board-info #viewers-area #viewers:before {
 	content: var(--before);
 	cursor: text;
@@ -241,6 +255,12 @@ header #header-bar>.row {
 #board-info #viewers-area #viewers:after {
 	content: var(--after);
 	cursor: text;
+}
+
+/* 인원 아이콘 */
+#board-info #viewers-area .fa-user:before{
+    color: rgba(10, 59, 84, 0);
+    content: url(https://upload.tgd.kr/20180926/e541bf9b3cc607e164e607e106483d6e.png);
 }
 
 
@@ -268,6 +288,10 @@ header #header-bar>.row {
 
 /* 카테고리 */
 #article-list #article-list-category {
+    border-top: 2px dotted #FF48FF;
+    background: #FFFDFF;
+    border-bottom: 2px dotted #FF48FF;
+
 	background: transparent;
 	border: none;
 	margin-top: 2px;
