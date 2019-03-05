@@ -499,7 +499,7 @@ header #header-bar>.row {
 
 #article-reply-area #reply-real-area .reply.active,
 #article-reply-area #reply-best-area .reply.active {
-	background-color: white;
+	/* background-color: var(--mellowskyblueColor); */
 }
 
 #article-reply-area #reply-real-area .reply > .reply-header,
