@@ -20,6 +20,7 @@
 	--mellowpinkColor: #FFEBFF; /* 연한 핑크색 */
 	--mellowmellowpinkColor: #ffd8ff; /* 더 연한 핑크색 */
 	--bethickpinkColor: #db76e6; /* 더 진한 핑크색 */
+	--mmeelloowwpinkColor: #FFFAFF; /* 완전 연한 핑크색 */
 	--logoURL: url(https://upload.tgd.kr/20180926/05028f40205242b2a43f4dd47d9e7cac.png);
 	--logoWidth: 200px;	 /* 로고 너비 */
 	--before: "뺀찌단"; /* 접속자 수 앞 문구 */
@@ -371,7 +372,7 @@ header #header-bar>.row {
 
 #article-list>.article-list-row.hot,
 #article-list>.article-list-row.notice {
-	background-color: var(--mellowmellowpinkColor);
+	background-color: var(--mmeelloowwpinkColor);
 }
 
 #article-list>.article-list-row.hot:hover,
