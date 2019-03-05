@@ -218,7 +218,6 @@ header #header-bar>.row {
 
 #board-info h1>a {
 	transition: 0.2s;
-	margin-left: 65px;
 }
 
 #board-info h1>a:hover,
