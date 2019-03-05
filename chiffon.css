@@ -533,3 +533,77 @@ header #header-bar>.row {
 .btn.square {
 	margin-right: -2px;
 }
+
+/* 글쓰기 버튼 */
+#article-list #article-list-menu > .btn.write{
+margin-right: 1em;
+border: 0;
+}
+.btn-primary:hover{
+animation: infinite rainbowLinkBG 3s;
+}
+@keyframes rainbowLink {
+    0% {
+        color: #ff2a2a;
+    }
+    15% {
+        color: #ff7a2a;
+    }
+    30% {
+        color: #ffc52a;
+    }
+    45% {
+        color: #43ff2a;
+    }
+    60% {
+        color: #2a89ff;
+    }
+    75% {
+        color: #202082;
+    }
+    90% {
+        color: #6b2aff;
+    }
+    100% {
+        color: #e82aff;
+    }
+}
+
+@keyframes rainbowLinkBG {
+    0% {
+        background-color: #ff2a2a;
+    }
+    15% {
+        background-color: #ff7a2a;
+    }
+    30% {
+        background-color: #ffc52a;
+    }
+    45% {
+        background-color: #43ff2a;
+    }
+    60% {
+        background-color: #2a89ff;
+    }
+    75% {
+        background-color: #202082;
+    }
+    90% {
+        background-color: #6b2aff;
+    }
+    100% {
+        background-color: #e82aff;
+    }
+}
+
+@keyframes AquaLinkBG {
+    0% {
+        background-color: #ffebac;
+    }
+    40% {
+        background-color: #ffce31;
+    }
+    100% {
+        background-color: #ffebac;
+    }
+}
