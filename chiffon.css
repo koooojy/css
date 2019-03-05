@@ -6,21 +6,21 @@
 	--mainColor3: #77777733; /* 공지, 인기글 */
 	--mainColor2: #77777722; /* 트게더 메뉴, 게시글 hover */
 	--headerColor1: #82b6ee; /* 헤더란 색상 */
-	--profileColor1: #FFB2F5; /* 프로필 색상 */
+	--profileColor1: #3DB7CC; /* 프로필 색상 */
 	--pinkColor: #5CD1E5; /* 트게더 랭킹, 왼쪽 메뉴 색상 */
-	--info: #F361A6; /* 즐겨찾기/소개/채널/클립/ */
+	--info: #003399; /* 즐겨찾기/소개/채널/클립/ */
 	--peoplenotice: #337ab7; /* 트게더 인원 수/전광판 */
 	--categories1: #3DB7CC; /* 카테고리 색상 */
 	--categories2: #C4FDFF; /* 카테고리 색상 */
-	--btnColor: #D941C5; /* 버튼 색상 */
+	--btnColor: #337ab7; /* 버튼 색상 */
 	--tgdmenuintervalColor: #efeaf7; /* 트게더 왼쪽 메뉴 간격 색상 */
 	--nicknameColor: #003399; /* 닉네임 색상 */
 	--engColor: #80F5FF; /* 트게더 메뉴 알파벳 색상 */
 	--tgdtextColor: #005D72; /* 트게더 메뉴 글자 색상 */
 	--mellowskyblueColor: #D9E5FF; /* 연한 하늘색 */
-	--mellowmellowskyblueColor: #EBF7FF; /* 더 연한 하늘색 */
+	--mellowmellowskyblueColor: #A0BAED; /* 더 연한 하늘색 */
 	--bethickskyblueColor: #B2CCFF; /* 더 진한 하늘색 */
-	--mmeelloowwskyblueColor: #A0BAED; /* 완전 연한 하늘색 */
+	--mmeelloowwskyblueColor: #EBF7FF; /* 완전 연한 하늘색 */
 	--logoURL: url(https://upload.tgd.kr/20180926/9f10b8e59c0357f1ab507d8aa93c8705.png);
 	--logoWidth: 200px;	 /* 로고 너비 */
 	--before: "케이크단"; /* 접속자 수 앞 문구 */
@@ -107,7 +107,7 @@ header #header-bar>.row {
     border-bottom: 4px double var(--headerColor1);
     border-right: 0;
     z-index: 200;
-    background-image: linear-gradient(to right,#FFD8D8,#FFA7A7,#FFE08C,#CEFBC9,#FFD8D8);
+    background-image: linear-gradient(to right,#B2EBF4,#5CD1E5,#FFE08C,#CEFBC9,#B2EBF4);
     background-size: 300% auto;
     animation: header-bar 20s infinite ease-in;
 }
@@ -316,9 +316,9 @@ header #header-bar>.row {
 
 /* 카테고리 */
 #article-list #article-list-category {
-    border-top: 2px dotted #FF48FF;
-    background: #FFFDFF;
-    border-bottom: 2px dotted #FF48FF;
+    border-top: 2px dotted #3DB7CC;
+    background: #C4FDFF;
+    border-bottom: 2px dotted #3DB7CC;
 
 	background: transparent;
 	/* border: none; */
@@ -429,8 +429,8 @@ header #header-bar>.row {
 }
 
 #article-content-wrapper>.header{
-	border-top: 2px solid #D941C5;
-	background-color: #FFEBFF
+	border-top: 2px solid #337ab7;
+	background-color: #D9E5FF;
 }
 
 #article-info #article-info-writer,
@@ -505,7 +505,7 @@ header #header-bar>.row {
 #article-reply-area #reply-real-area .reply > .reply-header,
 #article-reply-area #reply-best-area .reply > .reply-header {
 	padding: 0.3em 0.5em;
-	background: #FFEBFF;
+	background: var(--mellowskyblueColor);
 }
 
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged,
@@ -535,11 +535,12 @@ header #header-bar>.row {
 }
 */
 
-/* 게시글에 이미지 넣기 */
+/* 게시글에 이미지 넣기
 #article-list-row-6439347{
     background-image: url(https://upload.tgd.kr/20181211/00423f094f3b0da68a4ae4eb5c3cc1bf.png)!important;
     background-position: 50% 50% !important;
 }
+*/
 
 /* 게시글 느낌표 색상 */
 span.a-badge i.fa.fa-info-circle{
@@ -584,7 +585,7 @@ span.a-badge i.fa.fa-star{
 
 /* 하트색상 */
 #article-list>.article-list-row>.item>.list-title>small.favo{
-color: pink;
+color: skyblue;
 }
 
 /* 하드모양 바운스 */
@@ -626,12 +627,12 @@ color: pink;
 }
 
 .pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{
-background-color: #FFB2F5;
-    border-color: #FFB2F5;
+background-color: #B2EBF4;
+    border-color: #B2EBF4;
 }
 
 .pagination>li>a, .pagination>li>span{
-color: #FFB2F5;
+color: #B2EBF4;
 }
 /*
 .pagination>.active>a,
@@ -666,7 +667,7 @@ color: #FFB2F5;
 .input-group-btn.open .dropdown-menu {
 	opacity: unset;
 	transform: unset;
-	border: 2px solid var(--mellowskyblueColor);
+	border: 2px solid var(--nicknameColor);
 	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.275);
 }
 
@@ -705,7 +706,7 @@ color: #FFB2F5;
 }
 
 .dropdown-menu .divider {
-	background-color: var(--mainColor);
+	background-color: var(--nicknameColor);
 	height: 2px;
 	margin: 3px 0;
 }
@@ -819,12 +820,12 @@ animation: infinite rainbowLinkBG 3s;
 
 @keyframes AquaLinkBG {
     0% {
-        background-color: #FFB2F5;
+        background-color: #B2EBF4;
     }
     40% {
-        background-color: #FFD9FA;
+        background-color: #E8FFFF;
     }
     100% {
-        background-color: #FFB2F5;
+        background-color: #B2EBF4;
     }
 }
