@@ -33,10 +33,6 @@
 html,
 body {
 	background: var(--bgColor);
-	height: auto !important;
-	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-size: 14px;
-	line-height: 1.42857143;
 }
 
 a {
@@ -592,10 +588,10 @@ span.a-badge i.fa.fa-star{
 
 /* 하트색상 */
 #article-list>.article-list-row>.item>.list-title>small.favo{
-color: skyblue;
+	color: skyblue;
 }
 
-/* 하드모양 바운스 */
+/* 하드모양 바운스
 .fa-heart:before {
     display: inline-block;
     animation: heartbounce 1s infinite;
@@ -627,6 +623,7 @@ color: skyblue;
     transform: scale(1);
   }
 }
+*/
 
 /* 트게더 페이지 */
 .pagination > li > a:hover {
