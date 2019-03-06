@@ -362,8 +362,8 @@ header #header-bar>.row {
 #article-list>.article-list-row:hover,
 #article-list>.article-list-row:focus {
 	background-color: var(--mellowpinkColor);
-	transform: scale(1.01);
-	transition: 0.2s;
+	/* transform: scale(1.01); */ /* 게시글 리스트 확대 */
+	/* transition: 0.2s; */
 }
 
 #article-list>.article-list-row.hot,
@@ -555,7 +555,7 @@ span.a-badge i.fa.fa-star{
 }
 
 
-/* 별 이미지 애니메이션 효과
+/* 별 이미지 애니메이션 효과 */
 .article-list-row i.fa.fa-star {
     animation: rotation 2s infinite;
 }
@@ -572,7 +572,6 @@ span.a-badge i.fa.fa-star{
         transform: rotate(360deg);
     }
 }
-*/
 
 /* 글 수정 알림 */
 .alert-success{
@@ -594,7 +593,7 @@ span.a-badge i.fa.fa-star{
 color: pink;
 }
 
-/* 하트모양 바운스 애니메이션 효과
+/* 하트모양 바운스 애니메이션 효과 */
 .fa-heart:before {
     display: inline-block;
     animation: heartbounce 1s infinite;
@@ -626,7 +625,7 @@ color: pink;
     transform: scale(1);
   }
 }
-*/
+
 
 /* 트게더 페이지 */
 .pagination > li > a:hover {
