@@ -123,7 +123,7 @@ header #header-bar>.row {
 }
 
 /* 전광판 */ header #header-bar #header-top-notice strong.notice-badge{
-	background: var(--peoplenotice)
+	background: var(--peoplenotice);
 }
 /* 트게더 알림 */ /* header #header-bar #header-menu-right #userDropdown #notification-badge {
 	/* background: var(--mainColor); */
@@ -581,6 +581,13 @@ span.a-badge i.fa.fa-star{
     border-color: var(--mellowmellowpinkColor);
 }
 
+/* 비밀글 알림 */
+.alert-danger{
+	color: var(--bethickpinkColor);
+    background-color: var(--mellowpinkColor);
+    border-color: var(--mellowmellowpinkColor);
+}
+
 
 /* 하트색상 */
 #article-list>.article-list-row>.item>.list-title>small.favo{
@@ -715,7 +722,7 @@ color: #FFB2F5;
 	/* color: #fff !important;
 	background-color: var(--mainColor) !important;
 	border-color: var(--mainColor) !important; */
-  border-radius: 0;
+ 	border-radius: 0;
 	transition: 0.2s;
 }
 
