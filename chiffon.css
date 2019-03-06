@@ -123,7 +123,7 @@ header #header-bar>.row {
 }
 
 /* 전광판 */ header #header-bar #header-top-notice strong.notice-badge{
-	background: var(--peoplenotice)
+	background: var(--peoplenotice);
 }
 /* 트게더 알림 */ /* header #header-bar #header-menu-right #userDropdown #notification-badge {
 	/* background: var(--mainColor); */
