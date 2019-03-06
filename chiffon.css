@@ -21,7 +21,7 @@
 	--mellowmellowskyblueColor: #A0BAED; /* 더 연한 하늘색 */
 	--bethickskyblueColor: #B2CCFF; /* 더 진한 하늘색 */
 	--mmeelloowwskyblueColor: #EBF7FF; /* 완전 연한 하늘색 */
-	--logoURL: url(https://raw.githubusercontent.com/koooojy/jpeg/master/chiffon/logo.png);
+	--logoURL: url(https://raw.githubusercontent.com/koooojy/jpeg/master/chiffon/logo.png); /* 로고 이미지 */
 	--logoWidth: 200px;	 /* 로고 너비 */
 	--before: "케이크단"; /* 접속자 수 앞 문구 */
 	--after: "명의 온기가 남아있습니다.";  /* 접속자 수 뒤 문구 */
