@@ -8,7 +8,7 @@ header{
 
 /* 로고 */
 header>#header-area>a>h1 {
-  background: url('https://github.com/koooojy/jpeg/blob/master/chiffon/mobile_logo.png') no-repeat;
+  background: url('https://github.com/koooojy/jpeg/blob/master/chiffon/mobile_logo.png?raw=true') no-repeat;
   background-repeat: no-repeat;
   height: unset !important;
 }
@@ -65,7 +65,7 @@ color: #3DB7CC;
 /* 인원 아이콘 */
 #board-info #viewers-area .fa-user:before{
     color: rgba(10, 59, 84, 0);
-    content: url(https://github.com/koooojy/jpeg/blob/master/chiffon/cake.png);
+    content: url(https://github.com/koooojy/jpeg/blob/master/chiffon/cake.png?raw=true);
 }
 
 
