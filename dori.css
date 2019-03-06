@@ -33,10 +33,6 @@
 html,
 body {
 	background: var(--bgColor);
-	height: auto !important;
-	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-size: 14px;
-	line-height: 1.42857143;
 }
 
 a {
@@ -167,7 +163,7 @@ header #header-bar>.row {
 
 /* 게시글 프레임 */
 #main #main-content>div.frame {
-	/* background: transparent; /* 정보/카테고리 사이간격 분류 */ 
+	/* background: transparent; /* 정보/카테고리 사이간격 분류 */
 	border: none;
 }
 
@@ -296,7 +292,7 @@ header #header-bar>.row {
 	background: white;
 	/* border: 2px solid var(--mainColor); */
     margin: 0;
-    padding: 0 0 2em; /* 게시판 넓이 조정 */
+    padding: 0 0 0em; /* 게시판 넓이 조정 */
 }
 
 /* 공지 숨기기 버튼 */
@@ -594,7 +590,7 @@ span.a-badge i.fa.fa-star{
 color: pink;
 }
 
-/* 하드모양 바운스 */
+/* 하드모양 바운스
 .fa-heart:before {
     display: inline-block;
     animation: heartbounce 1s infinite;
@@ -626,6 +622,7 @@ color: pink;
     transform: scale(1);
   }
 }
+*/
 
 /* 트게더 페이지 */
 .pagination > li > a:hover {
