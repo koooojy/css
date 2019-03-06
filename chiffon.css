@@ -21,7 +21,7 @@
 	--mellowmellowskyblueColor: #A0BAED; /* 더 연한 하늘색 */
 	--bethickskyblueColor: #B2CCFF; /* 더 진한 하늘색 */
 	--mmeelloowwskyblueColor: #EBF7FF; /* 완전 연한 하늘색 */
-	--logoURL: url(https://upload.tgd.kr/20180926/9f10b8e59c0357f1ab507d8aa93c8705.png);
+	--logoURL: url(https://github.com/koooojy/jpeg/blob/master/chiffon/logo.png);
 	--logoWidth: 200px;	 /* 로고 너비 */
 	--before: "케이크단"; /* 접속자 수 앞 문구 */
 	--after: "명의 온기가 남아있습니다.";  /* 접속자 수 뒤 문구 */
@@ -286,7 +286,7 @@ header #header-bar>.row {
 /* 인원 아이콘 */
 #board-info #viewers-area .fa-user:before{
     color: rgba(10, 59, 84, 0);
-    content: url(https://upload.tgd.kr/20180928/c2689c91ffdfdbf6fa7abf86b9054019.png);
+    content: url(https://github.com/koooojy/jpeg/blob/master/chiffon/cake.png);
 }
 
 
