@@ -33,6 +33,7 @@
 html,
 body {
 	background: var(--bgColor);
+	height: auto !important;
 }
 
 a {
