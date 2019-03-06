@@ -8,7 +8,7 @@ header{
 
 /* 로고 */
 header>#header-area>a>h1 {
-  background: url('https://github.com/koooojy/jpeg/blob/master/dori_/mobile_logo.png') no-repeat;
+  background: url('https://github.com/koooojy/jpeg/blob/master/dori_/mobile_logo.png?raw=true') no-repeat;
   background-repeat: no-repeat;
   height: unset !important;
 }
@@ -78,7 +78,7 @@ cursor:text;
 /* 인원 아이콘 */
 #board-info #viewers-area .fa-user:before{
     color: rgba(10, 59, 84, 0);
-    content: url(https://github.com/koooojy/jpeg/blob/master/dori_/junimo_black.png);
+    content: url(https://github.com/koooojy/jpeg/blob/master/dori_/junimo_black.png?raw=true);
 }
 
 
@@ -256,7 +256,7 @@ span.a-badge i.fa.fa-star{
     width: 16px;
     height: 16px;
     background-size: 16px 16px;
-    background: url(https://github.com/koooojy/jpeg/blob/master/dori_/pink_pincers.png);
+    background: url(https://github.com/koooojy/jpeg/blob/master/dori_/pink_pincers.png?raw=true);
     background-repeat: no-repeat;
 }
 .article-list-row i.fa.fa-star {
