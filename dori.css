@@ -553,6 +553,9 @@ span.a-badge i.fa.fa-star{
     background: url(https://raw.githubusercontent.com/koooojy/jpeg/master/dori_/pink_pincers.png);
     background-repeat: no-repeat;
 }
+
+
+/* 별 이미지 애니메이션 효과
 .article-list-row i.fa.fa-star {
     animation: rotation 2s infinite;
 }
@@ -569,6 +572,7 @@ span.a-badge i.fa.fa-star{
         transform: rotate(360deg);
     }
 }
+*/
 
 /* 글 수정 알림 */
 .alert-success{
@@ -590,7 +594,7 @@ span.a-badge i.fa.fa-star{
 color: pink;
 }
 
-/* 하드모양 바운스
+/* 하트모양 바운스 애니메이션 효과
 .fa-heart:before {
     display: inline-block;
     animation: heartbounce 1s infinite;
