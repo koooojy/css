@@ -8,7 +8,7 @@ header{
 
 /* 로고 */
 header>#header-area>a>h1 {
-  background: url('https://upload.tgd.kr/20180816/7b4fb930c75468c7c8c396c128c2e39c.png') no-repeat;
+  background: url('https://github.com/koooojy/jpeg/blob/master/dori_/mobile_logo.png') no-repeat;
   background-repeat: no-repeat;
   height: unset !important;
 }
@@ -78,7 +78,7 @@ cursor:text;
 /* 인원 아이콘 */
 #board-info #viewers-area .fa-user:before{
     color: rgba(10, 59, 84, 0);
-    content: url(https://upload.tgd.kr/20180926/e541bf9b3cc607e164e607e106483d6e.png);
+    content: url(https://github.com/koooojy/jpeg/blob/master/dori_/junimo_black.png);
 }
 
 
@@ -256,7 +256,7 @@ span.a-badge i.fa.fa-star{
     width: 16px;
     height: 16px;
     background-size: 16px 16px;
-    background: url(https://upload.tgd.kr/20180926/0f1df74ed89f5b5109736512d419b723.png);
+    background: url(https://github.com/koooojy/jpeg/blob/master/dori_/pink_pincers.png);
     background-repeat: no-repeat;
 }
 .article-list-row i.fa.fa-star {
