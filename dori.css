@@ -21,7 +21,7 @@
 	--mellowmellowpinkColor: #ffd8ff; /* 더 연한 핑크색 */
 	--bethickpinkColor: #db76e6; /* 더 진한 핑크색 */
 	--mmeelloowwpinkColor: #FFFAFF; /* 완전 연한 핑크색 */
-	--logoURL: url(https://github.com/koooojy/jpeg/blob/master/dori_/logo.png?raw=true); /* 로고 이미지 */
+	--logoURL: url(https://raw.githubusercontent.com/koooojy/jpeg/master/dori_/logo.png); /* 로고 이미지 */
 	--logoWidth: 200px;	 /* 로고 너비 */
 	--before: "뺀찌단"; /* 접속자 수 앞 문구 */
 	--after: "명의 온기가 남아있습니다.";  /* 접속자 수 뒤 문구 */
@@ -286,7 +286,7 @@ header #header-bar>.row {
 /* 인원 아이콘 */
 #board-info #viewers-area .fa-user:before{
     color: rgba(10, 59, 84, 0);
-    content: url(https://github.com/koooojy/jpeg/blob/master/dori_/junimo_black.png?raw=true);
+    content: url(https://raw.githubusercontent.com/koooojy/jpeg/master/dori_/junimo_black.png);
 }
 
 
@@ -537,7 +537,7 @@ header #header-bar>.row {
 
 /* 게시글에 이미지 넣기 */
 #article-list-row-6439347{
-    background-image: url(https://github.com/koooojy/jpeg/blob/master/dori_/notice.png?raw=true)!important;
+    background-image: url(https://raw.githubusercontent.com/koooojy/jpeg/master/dori_/notice.png)!important;
     background-position: 50% 50% !important;
 }
 
@@ -554,7 +554,7 @@ span.a-badge i.fa.fa-star{
     width: 16px;
     height: 16px;
     background-size: 16px 16px;
-    background: url(https://github.com/koooojy/jpeg/blob/master/dori_/pink_pincers.png?raw=true);
+    background: url(https://raw.githubusercontent.com/koooojy/jpeg/master/dori_/pink_pincers.png);
     background-repeat: no-repeat;
 }
 .article-list-row i.fa.fa-star {
