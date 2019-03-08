@@ -729,7 +729,7 @@ color: #FFB2F5;
 
 .btn:hover,
 .btn:focus {
-	color: var(--mainColor) !important;
+	color: var(--nicknameColor) !important;
 	background-color: #fff !important;
 }
 
