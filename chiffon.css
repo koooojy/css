@@ -737,7 +737,7 @@ color: #B2EBF4;
 
 /* 라이브 버튼 */
 #board-info h1>a.badge.badge-live{
-    margin-left: 160px;
+    /* margin-left: 160px; */
 }
 
 /* 인기글 버튼 */
