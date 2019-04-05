@@ -922,3 +922,37 @@ animation: infinite rainbowLinkBG 3s;
   color: #5cb85c;
 
 }
+
+
+/* 기존 이모티콘 원하는 이모티콘으로 변경 */
+/** 이모티콘창에서 보이는 이모티콘 이미지 수정 **/ 
+
+.fr-command.fr-emoticon[data-param1=HotPokket ] > img { 
+
+     width: 30px !important; 
+
+     height: 30px !important; 
+
+     padding-left: 30px;
+
+     background-image: url(https://4.bp.blogspot.com/-E2iQCldujHM/XKQ33J2NdlI/AAAAAAAAAhw/gCZEz0Qpp_0TQrJ9p02ypRpzuJKpyqNUACLcBGAs/s1600/19.04.01%25284%2529.gif);
+
+     background-size: 100%;
+
+} 
+
+/** 글작성 후 보이는 이미지 수정**/ 
+
+.fr-emoticon.fr-deletable > img[alt=HotPokket ]{ 
+
+     width: 50px !important; 
+
+     height: 50px !important; 
+
+     padding-left: 50px;
+
+     background-image: url(https://4.bp.blogspot.com/-E2iQCldujHM/XKQ33J2NdlI/AAAAAAAAAhw/gCZEz0Qpp_0TQrJ9p02ypRpzuJKpyqNUACLcBGAs/s1600/19.04.01%25284%2529.gif);
+
+     background-size: 100%; 
+
+}
