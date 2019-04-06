@@ -293,7 +293,7 @@ header #header-bar>.row {
 	background: white;
 	/* border: 2px solid var(--mainColor); */
     margin: 0;
-    padding: 0 0 0em; /* 게시판 넓이 조정 */
+    padding: 0em 0em 1em 0em; /* 게시판 넓이 조정 */
 }
 
 /* 공지 숨기기 버튼 */
