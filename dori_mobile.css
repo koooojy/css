@@ -437,8 +437,8 @@ color: pink;
 /* 기존 이모티콘 원하는 이모티콘으로 변경 */
 /** 이모티콘창에서 보이는 이모티콘 이미지 수정 **/ 
 
-span[data-param1="HotPokket"] img {
-    background: url(https://raw.githubusercontent.com/koooojy/gif/master/HotPokket.gif);
+span[data-param1="OptimizePrime"] img {
+    background: url(https://raw.githubusercontent.com/koooojy/gif/master/OptimizePrime.gif);
     width: 25px;
     padding-left: 25px;
     background-size: 25px 25px;
@@ -446,8 +446,8 @@ span[data-param1="HotPokket"] img {
 
 /** 글작성 후 보이는 이미지 수정**/ 
 
-img[alt="HotPokket"], #article-content-wrapper #article-content img[alt="HotPokket"] {
-    background: url(https://raw.githubusercontent.com/koooojy/gif/master/HotPokket.gif);
+img[alt="OptimizePrime"], #article-content-wrapper #article-content img[alt="OptimizePrime"] {
+    background: url(https://raw.githubusercontent.com/koooojy/gif/master/OptimizePrime.gif);
     width: 50px;
     height: 50px !important;
     padding-left: 50px;
@@ -458,7 +458,7 @@ img[alt="HotPokket"], #article-content-wrapper #article-content img[alt="HotPokk
 
 /** 이모티콘창에서 보이는 이모티콘 이미지 수정 **/ 
 
-span[data-param1="JKanStyle "] img {
+span[data-param1="JKanStyle"] img {
     background: url(https://raw.githubusercontent.com/koooojy/gif/master/JKanStyle.gif);
     width: 25px;
     padding-left: 25px;
@@ -467,7 +467,7 @@ span[data-param1="JKanStyle "] img {
 
 /** 글작성 후 보이는 이미지 수정**/ 
 
-img[alt="JKanStyle "], #article-content-wrapper #article-content img[alt="JKanStyle "] {
+img[alt="JKanStyle"], #article-content-wrapper #article-content img[alt="JKanStyle"] {
     background: url(https://raw.githubusercontent.com/koooojy/gif/master/JKanStyle.gif);
     width: 50px;
     height: 50px !important;
