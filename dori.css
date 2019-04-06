@@ -928,7 +928,7 @@ animation: infinite rainbowLinkBG 3s;
 /** 이모티콘창에서 보이는 이모티콘 이미지 수정 **/ 
 
 span[data-param1="HotPokket"] img {
-    background: url(https://raw.githubusercontent.com/koooojy/gif/master/HotPokket.gif);
+    background: url(https://raw.githubusercontent.com/koooojy/gif/master/dori_/HotPokket.gif);
     width: 25px;
     padding-left: 25px;
     background-size: 25px 25px;
@@ -937,7 +937,7 @@ span[data-param1="HotPokket"] img {
 /** 글작성 후 보이는 이미지 수정**/ 
 
 img[alt="HotPokket"], #article-content-wrapper #article-content img[alt="HotPokket"] {
-    background: url(https://raw.githubusercontent.com/koooojy/gif/master/HotPokket.gif);
+    background: url(https://raw.githubusercontent.com/koooojy/gif/master/dori_/HotPokket.gif);
     width: 50px;
     height: 50px !important;
     padding-left: 50px;
@@ -949,7 +949,7 @@ img[alt="HotPokket"], #article-content-wrapper #article-content img[alt="HotPokk
 /** 이모티콘창에서 보이는 이모티콘 이미지 수정 **/ 
 
 span[data-param1="JKanStyle"] img {
-    background: url(https://raw.githubusercontent.com/koooojy/gif/master/JKanStyle.gif);
+    background: url(https://raw.githubusercontent.com/koooojy/gif/master/dori_/JKanStyle.gif);
     width: 25px;
     padding-left: 25px;
     background-size: 25px 25px;
@@ -958,7 +958,7 @@ span[data-param1="JKanStyle"] img {
 /** 글작성 후 보이는 이미지 수정**/ 
 
 img[alt="JKanStyle"], #article-content-wrapper #article-content img[alt="JKanStyle"] {
-    background: url(https://raw.githubusercontent.com/koooojy/gif/master/JKanStyle.gif);
+    background: url(https://raw.githubusercontent.com/koooojy/gif/master/dori_/JKanStyle.gif);
     width: 50px;
     height: 50px !important;
     padding-left: 50px;
