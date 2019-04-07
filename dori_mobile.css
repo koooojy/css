@@ -474,3 +474,24 @@ img[alt="JKanStyle"], #article-content-wrapper #article-content img[alt="JKanSty
     padding-left: 50px;
     background-size: 50px 50px;
 }
+
+/*-----------------------------------------------------------------------------------------*/
+
+/** 이모티콘창에서 보이는 이모티콘 이미지 수정 **/ 
+
+span[data-param1="OptimizePrime"] img {
+    background: url(https://raw.githubusercontent.com/koooojy/gif/master/dori_/OptimizePrime.gif);
+    width: 25px;
+    padding-left: 25px;
+    background-size: 25px 25px;
+}
+
+/** 글작성 후 보이는 이미지 수정**/ 
+
+img[alt="OptimizePrime"], #article-content-wrapper #article-content img[alt="OptimizePrime"] {
+    background: url(https://raw.githubusercontent.com/koooojy/gif/master/dori_/OptimizePrime.gif);
+    width: 50px;
+    height: 50px !important;
+    padding-left: 50px;
+    background-size: 50px 50px;
+}
