@@ -742,6 +742,13 @@ color: #FFB2F5;
     /* margin-left: 160px; */
 }
 
+#board-info h1>a.badge.badge-live:after {
+    font-size: 12px;
+    content: " 생방송 보러가기";
+    z-index: 100;
+}
+
+
 /* 인기글 버튼 */
 #article-list #article-list-menu > .btn.best{
 margin-left: 1em;
