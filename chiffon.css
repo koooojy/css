@@ -1,6 +1,10 @@
 /* font */
 @import url('https://github.com/koooojy/font/blob/master/style.css');
 
+* {
+    font-family: 'BMHANNA_11yrs';
+}
+
 /* 사용자 설정 부분 */
 :root {
 	--bgColor: linear-gradient(to bottom, #5EFCE8, #736EFE);   /* 배경 색 */
