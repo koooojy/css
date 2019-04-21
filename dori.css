@@ -1,3 +1,6 @@
+/* font */
+@import url('https://github.com/koooojy/font/blob/master/style.css');
+
 /* 사용자 설정 부분 */
 :root {
 	--bgColor: linear-gradient(to top, #C97CBF 0%, #FFEBFF 100%);   /* 배경 색 */
@@ -27,7 +30,6 @@
 	--after: "명의 온기가 남아있습니다.";  /* 접속자 수 뒤 문구 */
 }
 
-@import url('https://github.com/koooojy/font/blob/master/style.css');
 
 /* 모든 항목 focus시 아웃라인 제거 */
 *:focus { outline: none !important; }
