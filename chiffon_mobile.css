@@ -1,5 +1,10 @@
 /* font */
-@import url('https://github.com/koooojy/font/blob/master/style.css');
+@font-face { font-family: 'Binggrae-Bold'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Binggrae-Bold.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+* {
+    font-family: 'Binggrae-Bold';
+}
+
 
 /* 헤더 그라데이션 */
 header{
