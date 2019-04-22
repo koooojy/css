@@ -1,10 +1,3 @@
-/* font */
-@font-face { font-family: 'Binggrae-Bold'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Binggrae-Bold.woff') format('woff'); font-weight: normal; font-style: normal; }
-
-* {
-    font-family: 'Binggrae-Bold';
-}
-
 /* 사용자 설정 부분 */
 :root {
 	--bgColor: linear-gradient(to top, #C97CBF 0%, #FFEBFF 100%);   /* 배경 색 */
