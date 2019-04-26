@@ -201,8 +201,9 @@ header #header-bar>.row {
 
 /* 트게더 순위 */
 #board-info h1 .badge-success, #board-info h1 .badge-default{
-    float: right;
-    margin-top: 2.8em;
+    position: absolute;
+    right: 0px;
+    top: 47px;
     background-color: var(--pinkColor);
 }
 
