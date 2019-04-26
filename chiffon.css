@@ -5,9 +5,6 @@
     font-family: 'Binggrae-Bold';
 }
 
-/* 벚꽃 스크립트 */
-<script type="text/javascript" src="https://raw.githubusercontent.com/koooojy/css/master/cherry_blossom.js"> </script>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"> </script>
 
 /* 사용자 설정 부분 */
 :root {
@@ -845,6 +842,11 @@ animation: infinite rainbowLinkBG 3s;
         background-color: #B2EBF4;
     }
 }
+
+
+/* 벚꽃 스크립트 */
+<script type="text/javascript" src="https://raw.githubusercontent.com/koooojy/css/master/cherry_blossom.js"> </script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"> </script>
 
 
 /* 벚꽃 */
