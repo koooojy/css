@@ -114,7 +114,7 @@ header #header-bar>.row {
     border-bottom: 4px double var(--headerColor1);
     border-right: 0;
     z-index: 200;
-    background-image: linear-gradient(to right,#FFD8D8,#FFA7A7,#FFE08C,#CEFBC9,#FFD8D8);
+    background-image: linear-gradient(to right,#FFA0F0,#FFAFF2,#FFC9F6,#FFAFF2,#FFA0F0);
     background-size: 300% auto;
     animation: header-bar 20s infinite ease-in;
 }
