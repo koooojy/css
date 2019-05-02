@@ -1047,3 +1047,22 @@ input[type='text']
  {
  cursor: url(https://raw.githubusercontent.com/koooojy/jpeg/master/dori_/pink_pincers_2.png) 0 0, auto !important;
 }
+
+
+/* 체리블라썸 */
+
+html {
+    height: auto !important;
+}
+body {
+    background-image: url('https://raw.githubusercontent.com/koooojy/jpeg/master/chiffon/cherry_blossom1.png'), url('https://raw.githubusercontent.com/koooojy/jpeg/master/chiffon/cherry_blossom2.png');
+    animation: cherry_blossom 50s linear infinite;
+}
+@keyframes cherry_blossom {
+    0% {
+        background-position: 0 0, 0 0, 0 0;
+    }
+    100% {
+        background-position: 500px 1200px, 500px 500px, 400px, 400px;
+    }
+}
