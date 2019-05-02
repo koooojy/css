@@ -1056,9 +1056,10 @@ html {
     height: auto !important;
 }
 body {
-    background-image: url('https://raw.githubusercontent.com/koooojy/jpeg/master/chiffon/cherry_blossom1.png'), url('https://raw.githubusercontent.com/koooojy/jpeg/master/chiffon/cherry_blossom2.png');
+    background-image: url('https://raw.githubusercontent.com/koooojy/jpeg/master/dori_/cherry_blossom1.png'), url('https://raw.githubusercontent.com/koooojy/jpeg/master/dori_/cherry_blossom2.png');
     animation: cherry_blossom 50s linear infinite;
 }
+
 @keyframes cherry_blossom {
     0% {
         background-position: 0 0, 0 0, 0 0;
