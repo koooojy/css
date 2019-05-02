@@ -1057,7 +1057,7 @@ html {
 }
 body {
     background-image: url('https://raw.githubusercontent.com/koooojy/jpeg/master/dori_/cherry_blossom1.png'), url('https://raw.githubusercontent.com/koooojy/jpeg/master/dori_/cherry_blossom2.png');
-    animation: cherry_blossom 30s linear infinite;
+    animation: cherry_blossom 50s linear infinite;
 }
 
 @keyframes cherry_blossom {
