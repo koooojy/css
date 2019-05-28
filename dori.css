@@ -1068,10 +1068,3 @@ body {
         background-position: 500px 1200px, -500px 1200px, 400px, 400px;
     }
 }
-
-
-/** 소개 부관리자 안보이게 **/
-
-element.style {
-	display: none !important;
-}
