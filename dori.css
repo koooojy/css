@@ -1070,6 +1070,8 @@ body {
 }
 
 
+/** 소개 부관리자 안보이게 **/
+
 element.style {
 	display: none !important;
 }
