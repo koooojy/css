@@ -1068,3 +1068,10 @@ body {
         background-position: 500px 1200px, -500px 1200px, 400px, 400px;
     }
 }
+
+
+/* 소개 안보이게 */
+
+#board-info #board-info-bottom a[href="/dori1203/profile"] {
+	display: none;
+}
