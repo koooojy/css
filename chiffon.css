@@ -842,3 +842,10 @@ animation: infinite rainbowLinkBG 3s;
         background-color: #B2EBF4;
     }
 }
+
+
+/* 소개 안보이게 */
+
+#board-info #board-info-bottom a[href="/koooojy/profile"] {
+	display: none;
+}
