@@ -493,3 +493,10 @@ img[alt="OptimizePrime"], #article-content-wrapper #article-content img[alt="Opt
     padding-left: 50px;
     background-size: 50px 50px;
 }
+
+
+/* 소개 안보이게 */
+
+#board-info #board-info-bottom a[href="/dori1203/profile"] {
+    display: none;
+}
