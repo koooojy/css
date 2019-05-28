@@ -493,3 +493,10 @@ img[alt="OptimizePrime"], #article-content-wrapper #article-content img[alt="Opt
     padding-left: 50px;
     background-size: 50px 50px;
 }
+
+
+/** 소개 부관리자 안보이게 **/
+
+element.style {
+    display: none !important;
+}
