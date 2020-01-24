@@ -541,11 +541,12 @@ header #header-bar>.row {
 }
 */
 
-/* 게시글에 이미지 넣기 */
+/* 절대읽으시오 
 #article-list-row-6439347{
     background-image: url(https://raw.githubusercontent.com/koooojy/jpeg/master/dori_/notice.png)!important;
     background-position: 50% 50% !important;
 }
+*/
 
 /* 게시글 느낌표 색상 */
 span.a-badge i.fa.fa-info-circle{
