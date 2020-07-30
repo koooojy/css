@@ -262,8 +262,8 @@ header #header-bar>.row {
     top: 3.5px;
     width: 66px;
     height: 70px;
-    margin-top: 8.5px;
-    margin-left : 8.5px;
+    margin-top: -8.5px;
+    margin-left : -8.5px;
 }
 
 #board-info>img#board-info-profile-img:hover {
