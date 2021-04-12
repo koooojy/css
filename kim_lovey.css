@@ -195,6 +195,18 @@ background: #dddddd;
 	transition: 0.2s;
 }
 
+/* 트게더 스트리머 프로필 사진 변경 */
+#board-info #board-info-profile-img{
+	border: 2px solid #000000;
+    border-radius: 60%;
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    top: -15px;
+    left: 5px;
+	content: url(https://1.bp.blogspot.com/-rb5406REO1s/YGDVb3gmJPI/AAAAAAAABe0/bElhoGYEpc8Kn1mrVR00vbmMkiSuEaLRwCLcBGAsYHQ/s320/21.03.27%25282%2529.gif);
+}
+
 #board-info #board-info-bottom{
         margin-left: 68px;
 }
@@ -702,9 +714,9 @@ input[type='text']
 #movetotop {
    display: inline-block;
     opacity: 1;
-    background: url(https://1.bp.blogspot.com/-rb5406REO1s/YGDVb3gmJPI/AAAAAAAABe0/bElhoGYEpc8Kn1mrVR00vbmMkiSuEaLRwCLcBGAsYHQ/s320/21.03.27%25282%2529.gif);
-    width: 100px;
-    height: 100px;
+    background: url(https://1.bp.blogspot.com/-vdiupD4U9pk/YGyd3LO_ryI/AAAAAAAABmM/yMmHErJX0QYgWv9PVBhBXWbQy4nl3jL-gCLcBGAsYHQ/s320/21.04.05%252812%2529.gif);
+    width: 150px;
+    height: 150px;
     background-size: contain;
     background-repeat: no-repeat;
 }
