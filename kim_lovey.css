@@ -694,6 +694,23 @@ input[type='text']
 
 
 
+/* 최상단 이동 이미지로 변경 */
+#movetotop img{
+  display: none;
+}
+
+#movetotop {
+   display: inline-block;
+    opacity: 1;
+    background: url(https://1.bp.blogspot.com/-rb5406REO1s/YGDVb3gmJPI/AAAAAAAABe0/bElhoGYEpc8Kn1mrVR00vbmMkiSuEaLRwCLcBGAsYHQ/s320/21.03.27%25282%2529.gif);
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+
 
 
 
