@@ -260,7 +260,7 @@ header #header-bar>.row {
     left: 20px;
     top: 3.5px;
     width: 66px;
-    height: 70px;
+    height: 70px; 
     margin-top: -8.5px;
     margin-left : -8.5px;
 }
