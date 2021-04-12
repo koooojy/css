@@ -101,7 +101,7 @@ header #header-bar>.row {
     border-bottom: 4px double #ffffff;
     border-right: 0;
     z-index: 200;
-    background-image: linear-gradient(to right,#6441a5,#5CD1E5,#ffcc41,#ff54fb,#6441a5);
+    background-image: linear-gradient(to right,#6441a5,#5CD1E5,#e4408b,#ff54fb,#6441a5);
     background-size: 300% auto;
     animation: header-bar 20s infinite ease-in;
 }
