@@ -9,12 +9,6 @@
     font-family: 'MaplestoryOTFBold';
 }
 
-html, body {
-  height: auto;
-  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
-  color: #4e4e4e;
-}
-
 
 /* 사용자 설정 부분 */
 :root {
@@ -32,7 +26,11 @@ html, body {
 /* 모든 항목 focus시 아웃라인 제거 */
 *:focus { outline: none !important; }
 
-
+html, body {
+  height: auto;
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  color: #4e4e4e;
+}
 
 a,
 a:hover,
