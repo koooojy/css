@@ -29,11 +29,7 @@
 html, body {
   height: auto;
   background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
-color: #4e4e4e;
-}
-
-body {
-  background: transparent;
+  color: #4e4e4e;
 }
 
 a,
