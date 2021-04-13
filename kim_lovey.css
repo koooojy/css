@@ -528,7 +528,7 @@ span.a-badge i.fa.fa-star{
 
 /* 하트색상 */
 #article-list>.article-list-row>.item>.list-title>small.favo{
-	color: #ff3399;
+	color: #9400d3;
 }
 
 /* 하트모양 바운스 */
@@ -597,7 +597,7 @@ span.a-badge i.fa.fa-star{
 .input-group-btn.open .dropdown-menu {
 	opacity: unset;
 	transform: unset;
-        background: #dddddd
+    background: #dddddd
 	border: 2px solid var(--mainColor);
 	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.275);
 }
