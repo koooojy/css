@@ -658,6 +658,12 @@ span.a-badge i.fa.fa-star{
 	margin-right: -2px;
 }
 
+/* 글쓸때 뱃지 테두리 흰색 없애기 */
+a.custom-badge-link{
+border : none;
+}
+
+
 
 /* 마우스 커서 기본 */
 html,
