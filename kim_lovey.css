@@ -374,7 +374,7 @@ background: #dddddd;
 /* 읽은 게시글 색상 */
 #article-list>.article-list-row>.item>.list-title>a:visited {
     color: #7936a2 !important; /* 읽은 글 색상 코드 입력 */
-} 
+}
 
 
 /* 게시글 추천 수 */
