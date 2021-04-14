@@ -236,6 +236,7 @@ background: #dddddd;
         top: 3.5px;
         margin-top: -8.5px;
         margin-left : -8.5px;
+        z-index: 2;
 }
 
 #board-info #viewers-area #viewers:before {
@@ -262,11 +263,11 @@ background: #dddddd;
     -ms-transition:.3s;
     -o-transition:.3s;
     transition:.3s;
-    -webkit-transform:scale(2.1);
-    -moz-transform:scale(2.1);
-    -ms-transform:scale(2.1);   
-    -o-transform:scale(2.1);
-    transform:scale(2.1);
+    -webkit-transform:scale(2.3);
+    -moz-transform:scale(2.3);
+    -ms-transform:scale(2.3);   
+    -o-transform:scale(2.3);
+    transform:scale(2.3);
 }
 
 
