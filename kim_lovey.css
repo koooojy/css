@@ -262,11 +262,11 @@ background: #dddddd;
     -ms-transition:.3s;
     -o-transition:.3s;
     transition:.3s;
-    -webkit-transform:scale(2.5);
-    -moz-transform:scale(2.5);
-    -ms-transform:scale(2.5);   
-    -o-transform:scale(2.5);
-    transform:scale(2.5);
+    -webkit-transform:scale(2.2);
+    -moz-transform:scale(2.2);
+    -ms-transform:scale(2.2);   
+    -o-transform:scale(2.2);
+    transform:scale(2.2);
 }
 
 
