@@ -194,6 +194,15 @@ header {
 }
 
 
+/* 읽은 게시글 색상 */
+
+
+
+#article-list>.article-list-row>.item>.list-title>a:visited {
+    color: #986fb1 !important; /* 읽은 글 색상 코드 입력 */
+}
+
+
 
 /* 메인 배너 글 공지 */
 
