@@ -436,7 +436,7 @@ span.a-badge i.fa.fa-star{
 
 /* 하트색상 */
 #article-list>.article-list-row>.item>.list-title>small.favo{
-    color: #9400d3;
+    color: #9400d3 !important;
 }
 
 /* 하트모양 바운스 */
