@@ -196,7 +196,7 @@ header {
 
 
 
-#article-list>.article-list-row>.item>a.list-title>.title-value:visited {
+#article-list>.article-list-row>.item>.list-title>a:visited {
     color: #986fb1 !important; /* 읽은 글 색상 코드 입력 */
 }
 
