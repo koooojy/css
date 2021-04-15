@@ -241,7 +241,7 @@ header {
 
 #article-list>.article-list-row>.item>a.list-title>small.comment-count {
 
-    color: #dddddd; /* 댓글 수 색 */
+    color: #000; /* 댓글 수 색 */
 
 }
 
