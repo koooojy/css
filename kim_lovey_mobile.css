@@ -49,6 +49,46 @@ header>#header-area>#header-search-link {
 
 }
 
+/* 카테고리 */
+#article-list #article-list-category {
+    background: transparent;
+    border: none;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+#article-list #article-list-category>a {
+    background: transparent;
+  color: var(--mainColor);
+    position: relative;
+}
+
+#article-list #article-list-category>a::before {
+    top: 0;
+}
+
+#article-list #article-list-category>a::after {
+    bottom: 0;
+}
+
+#article-list #article-list-category>a::before,
+#article-list #article-list-category>a::after {
+    height: 2px;
+    width: 100%;
+    background: var(--mainColor);
+    content: "";
+    position: absolute;
+    left: 0px;
+    transform: scaleX(0);
+    transition: 0.3s;
+}
+
+#article-list #article-list-category>a:hover::before,
+#article-list #article-list-category>a:hover::after {
+    transform: scaleX(1);
+}
+
+
 
 /* 왼쪽 메뉴 카테고리 */
 nav#nav>.nav-header{
