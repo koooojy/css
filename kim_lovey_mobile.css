@@ -233,6 +233,15 @@ header {
 
 
 
+/* 읽은 게시글 색상 */
+#article-list>.article-list-row>.item>a.list-title:visited {
+
+    color:#986fb1 !important;
+
+}
+
+
+
 /* 메인 배너 글 공지 */
 
 #article-list>.article-list-row.notice {
