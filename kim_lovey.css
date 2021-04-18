@@ -739,3 +739,24 @@ input[type='text']
     background-size: contain;
     background-repeat: no-repeat;
 }
+
+
+/* 기존 이모티콘 원하는 이모티콘으로 변경 */
+/** 이모티콘창에서 보이는 이모티콘 이미지 수정 **/ 
+
+span[data-param1="GlitchNRG"] img {
+    background: url(https://1.bp.blogspot.com/-3CoEdFY5YVs/YHwMwka65eI/AAAAAAAAB2U/cQIQxTqNABsDolhIrWv-420ndUhfM0POQCLcBGAsYHQ/s0/21.04.13%25286%252975x75.gif);
+    width: 25px;
+    padding-left: 25px;
+    background-size: 25px 25px;
+}
+
+/** 글작성 후 보이는 이미지 수정**/ 
+
+img[alt="GlitchNRG"], #article-content-wrapper #article-content img[alt="GlitchNRG"] {
+    background: url(https://1.bp.blogspot.com/-3CoEdFY5YVs/YHwMwka65eI/AAAAAAAAB2U/cQIQxTqNABsDolhIrWv-420ndUhfM0POQCLcBGAsYHQ/s0/21.04.13%25286%252975x75.gif);
+    width: 50px;
+    height: 50px !important;
+    padding-left: 50px;
+    background-size: 50px 50px;
+}
