@@ -564,9 +564,9 @@ a{
 
 span[data-param1="GlitchNRG"] img {
     background: url(https://1.bp.blogspot.com/-3CoEdFY5YVs/YHwMwka65eI/AAAAAAAAB2U/cQIQxTqNABsDolhIrWv-420ndUhfM0POQCLcBGAsYHQ/s0/21.04.13%25286%252975x75.gif);
-    width: 75px !important;
-    height: 75px !important;
-    padding-left: 75px;
+    width: 30px !important;
+    height: 30px !important;
+    padding-left: 30px;
     background-size: 100%;
 }
 
@@ -577,14 +577,5 @@ img[alt="GlitchNRG"], #article-content-wrapper #article-content img[alt="GlitchN
     width: 75px !important;
     height: 75px !important;
     padding-left: 75px;
-    background-size: 100%;
-}
-
-
-.fr-command.fr-emoticon[data-param1="GlitchNRG"] > img{
-    width: 30px !important;
-    height: 30px !important;
-    padding-left: 30px;
-    background-image: url(https://1.bp.blogspot.com/-3CoEdFY5YVs/YHwMwka65eI/AAAAAAAAB2U/cQIQxTqNABsDolhIrWv-420ndUhfM0POQCLcBGAsYHQ/s0/21.04.13%25286%252975x75.gif);
     background-size: 100%;
 }
